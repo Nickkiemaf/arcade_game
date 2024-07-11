@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/styles/style.css" rel="stylesheet" />
+    <title>Arcade Game</title>
+</head>
+<body>
+    <header class="head_btn">
+        <a href="signup.html"><button type="submit">Sign up</button></a>
+        <a href="login.html"><button type="submit">Login</button></a>
+    </header>
+
+    <div class="welcome">
+        <h1>Welcome, Player</h1>
+        <h4>Make a choice...... Which game will it be?</h4>
+    </div>
+        <br><br>
+
+    <form class="login-form" action="/login" method="POST">
+        <h1>Login</h1>
+        <br>
+        <input type="text" id="username" name="usernmae" placeholder="Username" required>
+        <br><br>
+
+        <input type="password" id="password" name="password" placeholder="Password">
+        <br><br>
+
+        <label for="check" id="check">Remember me?</label>
+        <input type="checkbox" id="check" name="check" required>
+        <br><br>
+
+        <a href="entre.html"><button type="submit" id="login_btn">Register</button></a>
+
+    </form>
+
+    <footer>Mikail Ajibola Arcade Game. ALX C21 project. 2024</footer>
+</body>
+</html>
